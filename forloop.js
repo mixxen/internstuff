@@ -7,10 +7,10 @@ for(var i = 0; i < text.length; i++) {
   for(var j = 0; j < name.length; j++) {
 
     if(text[i+j] !== name[j])
-      break; //break for "j" loop if letters do note equal
+      break; //break from "j" loop if letters do note equal
 
     console.log(text[i+j] + ',' + name[j] + ' >> ' + i + ',' + j);
-    
+
     if(j === name.length-1)
       hits++; //if we get this far then there is a match
 
