@@ -1,4 +1,4 @@
-
+//Chris program
 var text = "Hi my name is Chris. This is a test. Does your name start with a C like Chris?";
 var name = "Chris";
 var hits = 0;
